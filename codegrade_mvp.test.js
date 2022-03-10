@@ -8,7 +8,7 @@ import '@testing-library/jest-dom/extend-expect'
 // TODO: WRITE TESTS
 // TODO: WRITE TESTS
 
-jest.setTimeout(750) // default 5000 too long for Codegrade
+jest.setTimeout(2000) // default 5000 too long for Codegrade
 
 beforeAll(() => { server.listen() })
 afterAll(() => { server.close() })
